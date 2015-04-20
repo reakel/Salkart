@@ -1,0 +1,74 @@
+head{
+}
+body{
+	font: 12px Helvetica;
+}
+table.kart{
+	border:1px solid #aaa;
+	margin-bottom:50px;
+}
+td.tom,
+td.maskin,
+td.printer{
+	width:50px;
+	height:50px;
+}
+td.maskin{
+	text-align:center;
+	vertical-align:top;
+	overflow:hidden;
+	border:1px solid #bbb;
+	background-color: #ddd;
+}
+
+
+table.printerinfo,
+table.maskininfo{
+	font:8px Helvetica;
+	width:40px;
+	overflow:hidden;
+}
+td.doer{
+	background:url("door2.png");
+	background-size:50px 50px;
+	background-repeat:no-repeat;
+}
+td.printer{
+	background:#bbb;
+	border:1px solid #777;	
+}
+caption.salcaption{
+	font: 18px Helvetica;
+}
+.tooltip{
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:3;
+	display:none;
+	border:1px solid #DECA7E;
+	background-color: #f5f5b5;
+	text-align: left;
+
+}
+td.maskin[feil=feilprinter]{
+	background-color:#c77;
+}
+td.maskin[feil=av]{
+	background-color:#a44;
+}
+td.maskin[feil=ureg]{
+	background-color:#911;
+}
+td.maskin[feil=annet]{
+	color:#555;
+	background-color:#bbb;
+}
+.pop{
+	border:1px solid #000;
+	background-color:#fff;
+	font: 18px Helvetica;	
+}
+a.toclink{
+	font: 16px Helvetica;
+}
