@@ -1,0 +1,9 @@
+input/*
+makeindexBU.py
+pingerresult.xml
+www/*.png
+www/index.php
+www/*.save*
+www/kartScriptBU.js
+www/kartStyle2.css.save
+www/*.xml
