@@ -2,7 +2,7 @@
 //Erik Roede 2014
 
 $(document).ready(function(){
-    //phpcall
+    // Phpcall
     var inndata = 0;
     function phpCall() {
         $.post("dbsearch.php", function(data) {
